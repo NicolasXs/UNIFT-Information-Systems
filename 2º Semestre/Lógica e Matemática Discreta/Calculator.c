@@ -175,7 +175,7 @@ int continuar(){
 /*********************** Inicio Creditos ***********************/
 int creditos(){
  int delayLoop = 500;
-  char mensagem[350] = "Trabalho de Logica e Matematica Discreta\n\nGrupo: \nGabryel Kadmo Santos de Lucena\nGustavo Souza Gonzaga\nIan Rodrigues Alexandrino\nJose Venancio Marques Morais\nKailane Freires Sousa\nNicolas Ferreira Lacerda\n\nProf: Silas Silva Santos\n\nObjetivo:\nDesenvolver dois programas em Java ou C que faca a soma e a subtracao de 2 numeros em binario.";
+  char mensagem[350] = "Trabalho de Logica e Matematica Discreta\n\nGrupo: \nXxxxxxx Xxxxx Xxxxxx xx Xxxxx\nXxxxxxx Xxxxx Xxxxxxx\nXxx Xxxxxxxx Xxxxxxxxxxx\nXxxx Xxxxxxxx Xxxxxxx Xxxxxx\nXxxxxx Xxxxxxx Xxxxx\nXxxxxxx Xxxxxxxx Xxxxxxx\n\nProf: Xxxxx Xxxxx Xxxxxx\n\nObjetivo:\nDesenvolver dois programas em Java ou C que faca a soma e a subtracao de 2 numeros em binario.";
   for (int i = 0; i <= 350; i++) {
     printf("%c", mensagem[i]);
     fflush(stdout);
