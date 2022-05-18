@@ -1,0 +1,19 @@
+# Avaliação Formativa - ACC 01
+Quarta-feira, 10 de Novembro de 2021
+
+1 - Crie uma classe que simule a jogada de um dado de seis lados (números de 1 a 6) por três vezes. Ao final some seus valores e apresente o resultado das três jogadas.
+##
+2 - Uma farmácia precisa ajustar os preços de seus produtos em 12%. Elabore uma classe que receba o valor do produto e aplique o percentual de acréscimo.
+
+O novo valor a ser calculado deve ser arredondado para mais ou para menos usando o método round.
+
+A classe deve também conter um laço de repetição que encerre o programa quando o usuário fornecer o valor 0 (zero) para o valor do produto. 
+
+Dessa forma, o usuário digita o valor do produto, a classe calcula e mostra o valor com acréscimo, a seguir solicita um novo valor. 
+
+Esse processo continua enquanto o valor do produto for diferente de zero; caso contrário o programa será encerrado.
+##
+3 - Crie uma classe que gera um número aleatoriamente (entre 5 e 10) por Math.random. Em seguida, faça com que apareça em tela uma senha numérica contendo a mesma quantidade de dígitos correspondentes ao valor aleatório gerado. Apresente em tela o número sorteado e a senha.
+##
+4 - Elabore uma classe que receba uma frase e verifique se essa frase possui palavras impróprias. As palavras impróprias são: sexo e sexual. Caso encontre uma dessas palavras, emita em tela a mensagem “conteúdo impróprio”, caso contrário “conteúdo liberado”.
+
