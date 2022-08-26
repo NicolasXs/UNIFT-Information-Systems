@@ -1,0 +1,39 @@
+#navbar {
+  height: 180px;
+  position: initial;
+}
+
+#navbar-container {
+  flex-direction: column;
+  padding: 20px 0;
+}
+
+#navbar-items {
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+}
+
+#navbar-items li:nth-child(2) {
+  border-top: 1px solid #333;
+  border-bottom: 1px solid #333;
+}
+
+#showcase {
+  height: 80vh;
+  padding: 0 30px;
+}
+
+/* Features */
+#features-container {
+  grid-template-columns: 1fr;
+}
+
+.feature:nth-child(2) {
+  margin: 20px 0;
+}
+
+/* Contact */
+#contact-container {
+  flex-direction: column;
+}
