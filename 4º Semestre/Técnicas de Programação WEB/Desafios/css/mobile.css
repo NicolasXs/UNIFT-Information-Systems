@@ -19,6 +19,11 @@
   border-bottom: 1px solid #333;
 }
 
+#navbar-items li:nth-child(4) {
+  border-top: 1px solid #333;
+  border-bottom: 1px solid #333;
+}
+
 #showcase {
   height: 80vh;
   padding: 0 30px;
@@ -27,6 +32,11 @@
 /* Features */
 #features-container {
   grid-template-columns: 1fr;
+}
+#features #container input {
+  width: 90%;
+  padding: 20px;
+  border-radius: 20px;
 }
 
 .feature:nth-child(2) {
