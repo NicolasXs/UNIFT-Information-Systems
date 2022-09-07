@@ -21,4 +21,4 @@ window.addEventListener("scroll", function () {
     } else {
         document.querySelector("#navbar").style.opacity = 1;
     }
-});
+}); 

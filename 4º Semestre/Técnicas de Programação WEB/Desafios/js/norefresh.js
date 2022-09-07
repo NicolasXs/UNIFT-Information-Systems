@@ -14,4 +14,4 @@ function openPage(x, y) {
     xml.open("GET", url, true)
 
     xml.send()
-}
+} 

@@ -18,3 +18,4 @@ function consumo() {
   res.innerHTML += `<h3>Consumo Semanal: ${semanal} KG</h3>`;
   res.innerHTML += `<h3>Consumo Mensal: ${mensal} KG</h3>`;
 }
+ 
