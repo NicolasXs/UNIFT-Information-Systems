@@ -7,3 +7,7 @@ Desafio-03 -> Adivinha!
 
 # Arrays
 Desafio-04 -> Sequencia de Fibonacci
+
+# Pilhas
+Desafio-05 -> Palíndromo
+ 
