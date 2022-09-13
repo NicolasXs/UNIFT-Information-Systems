@@ -53,3 +53,5 @@ function palindromo() {
     res.innerHTML = string1 + " não é um Palíndromo!";
   }
 }
+
+
