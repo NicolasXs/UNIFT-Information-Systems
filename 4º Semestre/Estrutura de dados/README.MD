@@ -11,4 +11,7 @@ Desafio-04 -> Sequencia de Fibonacci
 # Pilhas
 Desafio-05 -> Palíndromo
  
+<<<<<<< HEAD
 Desafio-05 -> Conversor 
+=======
+>>>>>>> 3f2f6f677c9b1684396da1ded3b3fbfebeda951c
