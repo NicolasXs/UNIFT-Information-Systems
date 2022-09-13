@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="array-stack.js"></script>
+    <script src="conversor_base.js"></script>
+    <title>Conversão</title>
+  </head>
+  <body>
+    <div class="center">
+      <h1>Converta um número decimal, em qualquer base de 2 a 16!</h1>
+      <input type="number" placeholder="Digite um decimal..." id="decimal" />
+      <select id="select">
+        <option selected>Escolha uma base</option>
+      </select>
+      <button class="btn" onclick="start()">start</button>
+      <section id="res">
+        <p></p>
+      </section>
+    </div>
+
+    <script>
+      addOptions();
+      function addOptions() {
+        for (let index = 2; index <= 16; index++) {
+          const select = document.getElementById("select");
+          const option = new Option(index, index);
+          select.add(option);
+        }
+      }
+    </script>
+  </body>
+</html>

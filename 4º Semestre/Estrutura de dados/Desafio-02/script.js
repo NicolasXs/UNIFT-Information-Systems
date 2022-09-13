@@ -7,7 +7,7 @@ function teste() {
     tipo = "IMPAR";
   }
   let res = document.querySelector("section#result");
-  res.innerHTML = `<p>O numero ${num} é ${tipo}</p>`;
+  res.innerHTML = `<p>O número ${num} é ${tipo}</p>`;
 }
 
 function maiorOuNao() {
