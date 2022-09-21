@@ -1,17 +1,20 @@
 # Apresentação da Disciplina/JavaScript: Visão Geral
-Desafio-01 -> Somando números JS.
+Ex-01 -> Somando números JS.
 
-Desafio-02 -> Pedir dois números e exibir quem é maior do que quem ou se são iguais.
+Ex-02 -> Pedir dois números e exibir quem é maior do que quem ou se são iguais.
 
-Desafio-03 -> Adivinha!
+Ex-03 -> Adivinha!
 
 # Arrays
-Desafio-04 -> Sequencia de Fibonacci
+Ex-04 -> Sequencia de Fibonacci
 
 # Pilhas
-Desafio-05 -> Palíndromo
+Ex-05 -> Palíndromo
+
+Ex-05 -> Conversor 
+
+# Filas
+
+Ex-07 -> Usando Filas -> Sem iguais!
+
  
-<<<<<<< HEAD
-Desafio-05 -> Conversor 
-=======
->>>>>>> 3f2f6f677c9b1684396da1ded3b3fbfebeda951c
