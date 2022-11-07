@@ -21,6 +21,10 @@ Ex-07 -> Usando Filas -> Sem iguais!
 
 Ex-08 -> Linked List
 
-# Conjutos
+# Conjuntos
 
 Ex-09 -> Conjuntos - Set()
+
+# Dicionários
+
+Ex-10 -> Dicionários

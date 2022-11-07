@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="valuepair.js"></script>
+    <script src="map.js"></script>
+    <script src="script.js"></script>
+    <title>Dicionarios</title>
+  </head>
+  <body>
+    <div class="center">
+      <div class="parte1">
+        <img
+          src="https://cdn.discordapp.com/attachments/906179300179460127/1038984902059757608/unknown.png"
+          alt="dicionario"
+        />
+        <h1>Dicionarios</h1>
+        <h2>Olá, visualize com console do seu navegador;</h2>
+      <section id="res">
+        <p></p>
+      </section>
+    </div>
+    <script>
+      function typeWriter(elemento) {
+        const textoArray = elemento.innerHTML.split("");
+        elemento.innerHTML = "";
+        for (let i = 0; i < textoArray.length; i++) {
+          setTimeout(() => (elemento.innerHTML += textoArray[i]), 75 * i);
+        }
+      }
+      const titulo = document.querySelector("h2");
+      typeWriter(titulo);
+    </script>
+  </body>
+</html>
